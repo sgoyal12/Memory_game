@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shubham.memory_game.inst"
+    android:background="#651FFF"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In this game of memory it checks out your memory. In this if the fliped card is same as the previously flipped card then the player will get another chance to flip other set of cards but if they are not same then the player will loose the turn and the next player will get the chance. The game goes on until all the cards are vanished."
+        android:layout_gravity="left"
+        android:textSize="25dp"
+        android:gravity="left"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/bt100"/>
+</LinearLayout>
